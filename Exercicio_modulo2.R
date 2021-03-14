@@ -318,5 +318,7 @@ Sys.time()-inicio
 
 iris
 str(iris)
-media_coluna <- function (dados) {apply(data.frame,2, mean)} 
+dados <- data.frame()
+media_coluna <- function (dados) {apply(dados,2, mean)} 
+
 media_coluna(iris)
